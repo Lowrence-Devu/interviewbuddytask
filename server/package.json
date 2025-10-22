@@ -3,11 +3,13 @@
   "version": "1.0.0",
   "description": "Backend API for Organization & Users Management System",
   "main": "index.js",
+  "proxy": "http://localhost:5000",
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
     "init-db": "node scripts/initDb.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "render-postbuild": "npm run init-db"
   },
   "keywords": [
     "express",
