@@ -44,9 +44,9 @@ A full-stack web application for managing organizations and their users, built a
 │ name            │       │ user_id (PK)    │
 │ address         │       │ name            │
 │ created_at      │       │ email           │
-└─────────────────┘       │ role             │
-                         │ created_at       │
-                         └─────────────────┘
+└─────────────────┘       │ role            │
+                          │ created_at      │
+                          └─────────────────┘
 ```
 
 ### Tables
